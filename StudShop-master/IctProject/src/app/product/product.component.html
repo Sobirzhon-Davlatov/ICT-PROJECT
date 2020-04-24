@@ -1,0 +1,18 @@
+<app-product-list></app-product-list>
+<h2 class="header"></h2>
+<div class="line"></div>
+<h3 class="find">Find what you want</h3>
+<input class="input" [(ngModel)]="searchStr">
+<div class="wrapper">
+    <div *ngFor="let product of products| search:searchStr; index as productId">
+        <div *ngIf="product.productList == ID" class="box">
+            <img src="{{product.photo}}" class="photo">
+            <h3>
+                <a [title]="product.name + ' details'" [routerLink]="['/productList/' + ID + '/products/' +  productId]" class="text">
+        {{ product.name }}
+      </a>
+            </h3>
+        </div>
+    </div>
+
+</div>

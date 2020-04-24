@@ -1,0 +1,72 @@
+.header{
+  position: relative;
+  color: rgba(0, 176, 39, 0.6);
+  margin-top: 10px;
+  text-align: center;
+  font-family: Century Gothic;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box{
+  display: inline-block;
+  margin: 3px;
+  margin-bottom: 20px;
+  background: rgba(0, 176, 39, 0.6);
+  width: 370px;
+  height: 420px;
+  text-align: center;
+}
+
+.wrapper{
+  position: absolute;
+  display: flex;
+}
+
+.text{
+  position: relative;
+  top: 50px;
+  font-family: Century Gothic;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.photo{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 30px;
+  border-radius: 150px;
+}
+
+.input{
+  width: 450px;
+  height: 20px;
+  margin-bottom: 10px;
+  position: relative; 
+  left: 525px;
+  border-color: rgba(0, 176, 39, 0.6);
+  top: -20px;
+}
+
+.find{
+  font-family: Century Gothic;
+  font-size: 26px;
+  position: relative;
+  text-align: center;
+  color: rgba(0, 176, 39, 0.6);
+  font-weight: normal;
+  top: -20px;
+}
+
+.line{
+  position: relative;
+  width: 40%;
+  height: 2px;
+  top: -20px;
+  left: 460px;
+  background: #00B027;
+}

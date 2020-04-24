@@ -1,0 +1,234 @@
+.wrapper{
+    display: flex;
+}
+.image{
+    position: relative;
+    left: 140px;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+.box{
+    overflow: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 140px;
+    background-color:rgba(0, 176, 39, 0.6);
+    width: 660px;
+    height: 635px;
+}
+.box2{
+    position: absolute;
+    top: 507px;
+    left: 147px;
+    margin: 20px;
+    background-color:rgba(0, 176, 39, 0.6);
+    width: 500px;
+    height: 213px;
+}
+
+.select{
+    position: relative;
+    color: white;
+    background-color: rgba(0, 176, 39, 0.6);
+    border: none;
+    margin: 20px;
+    left: 660px;
+    width: 320px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 59px;
+}
+.back{
+    color: white;
+    background-color: rgba(0, 176, 39, 0.6);
+    border: none;
+    position: relative;
+    margin: 20px;
+    left: 640px;
+    width: 320px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 59px;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 49px;
+    top: 20px;
+}
+.desc{
+    position: relative;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 23px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.who{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.help{
+    width: 200px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+    text-align: center;
+}
+.shopname {
+    display: table;
+    position: relative;
+    width: 428px;
+    height: 78px;
+    left: 60px;
+    top: -30px;
+  }
+  
+  .stud {
+    display: table-cell;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    left: 100px;
+    top: 27px;
+  
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 78px;
+  
+    color: #000000;
+  }
+  
+  .itemshop {
+    display: table-cell;
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 203px;
+    top: 27px;
+  
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 78px;
+  
+    color: #00B027;
+  }
+  
+  .heading-name{
+    margin-top: 60px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 78px;
+    text-align: center;
+  
+    color: #00B027;
+  }
+  
+  .line{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    height: 3px;
+    left: 380px;
+    right: 380px;
+    background: #00B027;
+  }
+  .circle1{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 0px;
+    top: 300px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle2{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 300px;
+    left: 1000px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle3{
+    position: absolute;
+    left: 900px;
+    top: 10px;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle4{
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle5{
+    position: absolute;
+    left: 531px;
+    top: 0px;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle6{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle7{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 100px;
+    left: 200px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }
+  .circle8{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 100px;
+    left: 1080px;
+    border-radius: 225px;
+    background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+  }

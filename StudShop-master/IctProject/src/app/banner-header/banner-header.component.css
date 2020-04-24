@@ -1,0 +1,258 @@
+.shopname{
+  display: table;
+  position: absolute;
+  width: 428px;
+  height: 78px;
+  left: 60px;
+  top: -30px;
+}
+.stud{
+  display: table-cell;
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 100px;
+  top: 27px;
+
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 78px;
+
+  color: #000000;
+}
+.itemshop{
+  display: table-cell;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 203px;
+  top: 27px;
+
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 78px;
+
+  color: #00B027;
+}
+.slogan{
+  position: absolute;
+  width: 523px;
+  height: 165px;
+  left: 900px;
+  top: 240px;
+
+}
+.first-row{
+  display: table;
+}
+.make{
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  width: 180px;
+  color: #000000;
+  display: table-cell;
+}
+.your{
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  width: 140px;
+  color: #00B027;
+  display: table-cell;
+}
+.mood{
+  display: table-cell;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  width: 180px;
+  color: #000000;
+
+}
+.second-row{
+  display: table;
+}
+.by{
+  display: table-cell;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  width: 80px;
+  color: #000000;
+}
+.helping{
+  display: table-cell;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  width: 240px;
+  color: #00B027;
+}
+.others{
+  display: table-cell;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 63px;
+  line-height: 78px;
+  width: 180px;
+  color: #00B027;
+}
+.circle1{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 0px;
+  top: 300px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle2{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 300px;
+  left: 1000px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle3{
+  position: absolute;
+  left: 900px;
+  top: 10px;
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle4{
+  position: absolute;
+  left: 550px;
+  top: 300px;
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle5{
+  position: absolute;
+  left: 531px;
+  top: 0px;
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle6{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle7{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 100px;
+  left: 200px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+.circle8{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 100px;
+  left: 1080px;
+  border-radius: 225px;
+  background:  linear-gradient(180deg, rgba(0, 176, 39, 0.15) 0%, rgba(0, 176, 39, 0) 100%);
+}
+img{
+  position: absolute;
+  height: 530px;
+  width: 850px;
+  left: 0px;
+  top: 60px
+}
+.button-category{
+  position: absolute;
+  background-color: #00B027;
+  width: 238px;
+  height: 70px;
+  left: 900px;
+  top: 400px;
+  margin-top: 10px;
+}
+.text{
+  position: absolute;
+  color: white;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.button-upload{
+  position: absolute;
+  background-color: #00B027;
+  width: 238px;
+  height: 70px;
+  left: 1150px;
+  top: 400px;
+  margin-top: 10px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #00B027;
+  height: 170px;
+}
+.social-media{
+  position: absolute;
+  right: 100px;
+  font-family: Century Gothic;
+}
+.about-shop{
+  position: absolute;
+  right: 300px;
+  font-family: Century Gothic;
+}
+ul{
+  font-size: 20px;
+  list-style: none;
+  color: white;
+  text-align: center;
+  font-family: Century Gothic;
+}
+.rights{
+  font-family: Century Gothic;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom:20px;
+  left:20px
+}
+
+
+
+

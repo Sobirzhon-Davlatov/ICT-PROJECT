@@ -1,0 +1,33 @@
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background-color: #00B027;
+  height: 170px;
+}
+.social-media{
+  position: absolute;
+  right: 100px;
+  font-family: Century Gothic;
+}
+.about-shop{
+  position: absolute;
+  right: 300px;
+  font-family: Century Gothic;
+}
+ul{
+  font-size: 20px;
+  list-style: none;
+  color: white;
+  text-align: center;
+  font-family: Century Gothic;
+}
+.rights{
+  font-family: Century Gothic;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom:20px;
+  left:20px
+}

@@ -1,0 +1,34 @@
+<html>
+<div style="text-align:center; margin-top: 250px; ">
+
+<p><b>To which category are going to upload:</b><Br>
+   <input type="radio" name="browser" value="ie"> Services<Br>
+   <input type="radio" name="browser" value="opera"> Devices<Br>
+   <input type="radio" name="browser" value="firefox"> Daily<Br>
+   <input type="radio" name="browser" value="firefox"> KBTU<Br>
+  </p>
+
+   <p><b>Tell your price</b><br>
+   <input type="text" size="40">
+  </p>
+
+
+   <p>Description<Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+      <input type="radio" name="browser" value="ie"> Agree that everyone can see my product<Br>
+             <ul>
+                <li *ngFor="let file of files">
+                   <!-- <mat-progress-bar [value]="file.progress"></mat-progress-bar> -->
+                    <span id="file-label">
+
+                    </span>
+                </li>
+            </ul>
+
+         <button  (click)="onClick()">
+                <div>file_upload</div>
+                Upload
+                 </button>
+
+    <input type="file" #fileUpload id="fileUpload" name="fileUpload" multiple="multiple" accept="image/*" style="display:none;" /></div>
+</html>

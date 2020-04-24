@@ -1,0 +1,40 @@
+<div class="shopname" [routerLink]="['/']">
+    <div class="stud">Stud</div>
+    <div class="itemshop">ItemShop</div>
+</div>
+<div class="heading">
+    <div class="heading-name">Select product</div>
+    <div class="line"></div>
+</div>
+<div class="bubbles">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="circle6"></div>
+    <div class="circle7"></div>
+    <div class="circle8"></div>
+</div>
+
+<!--
+<div class="category-filter">
+  <div class="filter_head">Filter by category</div>
+  <div class="categories">
+    <div class="services">Services</div>
+    <div class="devices">Devices</div>
+    <div class="daily">Daily</div>
+    <div class="kbtu">KBTU</div>
+  </div>
+</div>
+-->
+
+<div class="category-filter">
+    <div class="filter_head">Filter by category</div>
+    <div class="categories" *ngFor="let pl of productList" [routerLink]="['/productList/' + pl.ID + '/products']">
+        <button class="services" [title]="productList">
+    {{pl.name}}
+  </button>
+    </div>
+</div>
+<!-- [routerLink]="['/productList/' + pl.ID + '/products']" -->
